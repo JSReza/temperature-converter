@@ -1,5 +1,5 @@
 let fahrenheit = document.getElementById("fahrenheit")
-let celcius = document.getElementById("celcius")
+let celsius = document.getElementById("celsius")
 const buttonC = document.getElementById("submit-c")
 const buttonF = document.getElementById("submit-f")
 
@@ -15,12 +15,12 @@ buttonC.addEventListener("click", function(e){
     e.preventDefault()
     let input = parseInt(fahrenheit.value)
     let output = fahrenheitToCelsius(input)
-    document.getElementById("output-c").textContent = `${input} degrees fahrenheit is ${output} degrees celcius`
+    document.getElementById("output-c").textContent = `${input} degrees fahrenheit is ${output} degrees celsius`
 })
 
 buttonF.addEventListener("click", function(e){
     e.preventDefault()
-    let input = parseInt(celcius.value)
+    let input = parseInt(celsius.value)
     let output = celsiusToFahrenheit(input)
-    document.getElementById("output-f").textContent = `${input} degrees celcius is ${output} degrees fahrenheit`
+    document.getElementById("output-f").textContent = `${input} degrees celsius is ${output} degrees fahrenheit`
 })
