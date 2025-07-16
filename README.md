@@ -8,5 +8,5 @@ A javascript app that allows the user to convert a temperature
 - allows the user to enter a value in fahrenheit and get the corresponding value in celsius
 - allows the user to enter a value in celsius and get the corresponding value in fahrenheit
 ## Live demo
-https://scintillating-frangollo-b73959.netlify.app/
+(https://temp-converter-jreza.netlify.app/)
 
